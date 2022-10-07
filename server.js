@@ -1,7 +1,7 @@
 const express = require('express')
 const { Router } = express
 const routerProducts = Router()
-const apiContainer = require ('./src/containers/apiContainer') // import de clase constructora
+const apiContainer = require ('./src/containers/apiContainer')
 const app = express()
 
 
